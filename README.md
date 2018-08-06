@@ -1,9 +1,10 @@
 ## play-audio
+[![npm Package Version](https://img.shields.io/npm/v/play-audio.js.svg?maxAge=2592000)](https://www.npmjs.com/package/play-audio.js)
 
 Lightweight Wrapper For HTML5 Audio API
 
 ```js
-play = require('play-audio')
+play = require('play-audio.js')
 
 play('song.mp3').autoplay()
 ```

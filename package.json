@@ -1,14 +1,14 @@
 {
-  "name": "play-audio",
-  "version": "0.0.3",
+  "name": "play-audio.js",
+  "version": "0.0.4",
   "description": "HTML5 Audio Player",
   "main": "index.js",
   "scripts": {
     "test": "fox"
   },
   "dependencies": {
-    "new-chain": "azer/new-chain",
-    "domify": "~1.0.0"
+    "domify": "~1.0.0",
+    "new-chain.js": "^0.0.1"
   },
   "devDependencies": {
     "fox": "*",
@@ -22,10 +22,20 @@
     "player",
     "play"
   ],
-  "repository": {
-    "url": "git@github.com:azer/play-audio.git",
-    "type": "git"
-  },
   "author": "Azer Koçulu <azer@kodfabrik.com>",
-  "license": "BSD"
+  "contributors": [
+    "Beeno Tung <aabbcc1241@yahoo.com.hk>"
+  ],
+  "license": "BSD-2-Clause",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beenotung/play-audio.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/beenotung/play-audio.js/issues"
+  },
+  "homepage": "https://github.com/beenotung/play-audio.js#readme"
 }
