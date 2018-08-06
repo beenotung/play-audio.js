@@ -86,9 +86,12 @@ function attr(el){
   var value;
 
   return function(urls){
+    var picked
+
     if (arguments.length) {
       value = urls;
-      el.setAttribute('src', pick(el, value));
+      picked = pick(el, value);
+      el.setAttribute('src', picked && picked.url || picked);
     }
 
     return value;
