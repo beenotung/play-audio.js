@@ -1,6 +1,6 @@
 ;(function(process){  require.m = { 0:[function(require,module,exports){ window.playAudio = require('./');
  },{"./":1}],1:[function(require,module,exports){ module.exports = require('./lib/player');
- },{"./lib/player":2}],2:[function(require,module,exports){ var newChain  = require('new-chain'),
+ },{"./lib/player":2}],2:[function(require,module,exports){ var newChain  = require('new-chain.js'),
     src = require('./src'),
     render = require('./render');
 
