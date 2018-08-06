@@ -75,7 +75,7 @@ function play(urls, dom){
   }
 
 }
- },{"./src":3,"./render":5,"new-chain":8}],3:[function(require,module,exports){ var mimeOf = require("./mime");
+ },{"./src":3,"./render":5,"new-chain.js":8}],3:[function(require,module,exports){ var mimeOf = require("./mime");
 
 module.exports = {
   attr: attr,
